@@ -3,10 +3,14 @@
   background-repeat: repeat;
   height: 100vh;
   background-position: center;
+  display: flex;
+  align-items: center;
 }
 .text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: start;
   width: 50%;
   margin: 25px;
   padding: 20px; /* inner spacing */
@@ -29,4 +33,10 @@
 
 .description {
   color: goldenrod;
+}
+
+.info-container {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
 }
