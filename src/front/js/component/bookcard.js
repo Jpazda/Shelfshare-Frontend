@@ -17,8 +17,8 @@ export const Bookcard = (props) => {
           alt="Card image cap"
           style={{ width: "150px", height: "200px", objectFit: "contain" }}
         />
-        <div className="container">
-          <h4 className="card-title mt-1 mb-1"><b>{props.bookname.substring(0, 17)}{props.bookname.length > 17 && "..."}</b></h4>
+        <div className="container w-100">
+          <p className="card-title mt-1 mb-1"><b>{props.bookname.substring(0, 17)}{props.bookname.length > 17 && "..."}</b></p>
           <p className="card-text">Author: {props.author}</p>
           <p className="card-text">Year: {props.year}</p>
           <p className="card-text">Category: {props.category}</p>
